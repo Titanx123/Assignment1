@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive HTML template including all fundamental and additional tags for an assignment.">
+    <title>Comprehensive HTML Template</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Comprehensive HTML Template</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>Section 1: Introduction</h2>
+            <p>This section demonstrates basic HTML elements and their usage.</p>
+            <p>This is a paragraph within section 1. Here is an example of a <a href="https://github.com/Titanx123" target="_blank">link</a>.</p>
+            <pre>&lt;img src="example.jpg" alt="Example Image"&gt;</pre>
+            <img src="https://imgcdn.zigwheels.ph/large/gallery/color/29/2570/suzuki-s-presso-color-306665.jpg" alt="Example Image">
+            <p><strong>Strong text</strong> and <em>emphasized text</em>.</p>
+            <p><small>Small text</small> and <mark>highlighted text</mark>.</p>
+            <p><del>Deleted text</del> and <ins>inserted text</ins>.</p>
+            <p>Subscript text: H<sub>2</sub>O and superscript text: E=mc<sup>2</sup>.</p>
+            <address>
+                Written by <a href="mailto:webmaster@example.com">webmaster@example.com</a>.<br>
+                Visit us at:<br>
+                Example.com<br>
+                Box 564, Disneyland<br>
+                USA
+            </address>
+        </section>
+
+        <section id="section2">
+            <h2>Section 2: Main Content</h2>
+            <p>This section contains ordered and unordered lists.</p>
+            <pre>&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;</pre>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+            <h3>Unordered List</h3>
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ul>
+            <h3>Embedded Media</h3>
+            <pre>&lt;audio controls&gt;
+    &lt;source src="audio-file.mp3" type="audio/mpeg"&gt;
+    Your browser does not support the audio element.
+&lt;/audio&gt;</pre>
+            <audio controls>
+                <source src="audio-file.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <pre>&lt;video controls&gt;
+    &lt;source src="video-file.mp4" type="video/mp4"&gt;
+    Your browser does not support the video element.
+&lt;/video&gt;</pre>
+            <video controls>
+                <source src="video-file.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <section id="section3">
+            <h2>Section 3: Forms, Tables, and Interactive Elements</h2>
+            <h3>Form</h3>
+            <pre>&lt;form action="#" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</pre>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Submit">
+            </form>
+
+            <h3>Table</h3>
+            <pre>&lt;table&gt;
+    &lt;caption&gt;Sample Table&lt;/caption&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Header 1&lt;/th&gt;
+            &lt;th&gt;Header 2&lt;/th&gt;
+            &lt;th&gt;Header 3&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Row 1, Cell 1&lt;/td&gt;
+            &lt;td&gt;Row 1, Cell 2&lt;/td&gt;
+            &lt;td&gt;Row 1, Cell 3&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Row 2, Cell 1&lt;/td&gt;
+            &lt;td&gt;Row 2, Cell 2&lt;/td&gt;
+            &lt;td&gt;Row 2, Cell 3&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Footer 1&lt;/td&gt;
+            &lt;td&gt;Footer 2&lt;/td&gt;
+            &lt;td&gt;Footer 3&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;</pre>
+            <table>
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                        <td>Row 1, Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                        <td>Row 2, Cell 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Footer 1</td>
+                        <td>Footer 2</td>
+                        <td>Footer 3</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h3>Interactive Elements</h3>
+            <pre>&lt;details&gt;
+    &lt;summary&gt;Click to see more details&lt;/summary&gt;
+    &lt;p&gt;Here are more details revealed upon clicking.&lt;/p&gt;
+&lt;/details&gt;</pre>
+            <details>
+                <summary>Click to see more details</summary>
+                <p>Here are more details revealed upon clicking.</p>
+            </details>
+            <pre>&lt;progress value="50" max="100"&gt;&lt;/progress&gt;</pre>
+            <progress value="50" max="100"></progress>
+            <pre>&lt;meter value="0.6"&gt;60%&lt;/meter&gt;</pre>
+            <meter value="0.6">60%</meter>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Comprehensive HTML Template. All rights reserved.</p>
+    </footer>
+
+    <script>
+        console.log('Page loaded successfully!');
+    </script>
+</body>
+</html>
